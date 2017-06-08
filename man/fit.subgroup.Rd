@@ -16,7 +16,7 @@ fit.subgroup(x, y, trt, propensity.func, loss = c("sq_loss_lasso",
 
 \item{y}{The response vector}
 
-\item{trt}{treatment vector with each element equal to a 0 or a 1, with 1 indicating
+\item{trt}{treatment vector with each element equal to 0 or 1, with 1 indicating
 treatment status is active.}
 
 \item{propensity.func}{function that inputs the design matrix x and the treatment vector trt and outputs
